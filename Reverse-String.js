@@ -9,7 +9,7 @@ const reverseString = function (arr) {
   return arr.reverse();
 };
 
-console.log(reverseString(["h", "e", "l", "l", "o"]));
+console.log(reverseString(['h', 'e', 'l', 'l', 'o']));
 
 /*
 

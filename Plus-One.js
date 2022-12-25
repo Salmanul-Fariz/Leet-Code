@@ -9,8 +9,8 @@ Increment the large integer by one and return the resulting array of digits.
 */
 
 const plusOne = function (digits) {
-  let number = BigInt(digits.join("")) + 1n;
-  let result = String(number).split("").map(Number);
+  let number = BigInt(digits.join('')) + 1n;
+  let result = String(number).split('').map(Number);
 
   return result;
 };
